@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Book Now</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="booking-form">
+        <h2>Book Your Stay</h2>
+        <form>
+            <label for="check-in-date">Check-in Date:</label>
+            <input type="date" id="check-in-date" required>
+            
+            <label for="check-out-date">Check-out Date:</label>
+            <input type="date" id="check-out-date" required>
+            
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" required>
+                <option value="standard">Standard</option>
+                <option value="deluxe">Deluxe</option>
+                <option value="suite">Suite</option>
+            </select>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    
+    <section class="hotel-features">
+        <h2>Our Hotel Features</h2>
+        <ul>
+            <li>Free Wi-Fi</li>
+            <li>Swimming Pool</li>
+            <li>Restaurant</li>
+            <li>24/7 Room Service</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Hotel Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
